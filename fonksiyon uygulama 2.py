@@ -1,3 +1,8 @@
+#öyle bir fonksiyon yazın ki kullanıcının adını gönderdiğinizde hoşgeldin isim yazsın.
+
+isim=input("İsminizi yazın. :")
+print("Hoşgeldin", isim)
+
 #kendisine girilen sayının karesinin karesini hesaplasın.
 
 sayi=int(input("Sayı gir:"))
