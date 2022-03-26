@@ -1,0 +1,6 @@
+import os
+basla=input("Bulmak istediğiniz dosya hangi harf ile başlasın? :")
+
+for i in os.listdir():
+    if i.startswith (basla):
+        print(i)
